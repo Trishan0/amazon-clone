@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Amazon - Sign In</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="icon" type="image/x-icon" href="../images/amazon-ico.jpg">
+
+      <link rel="stylesheet" href="../static/css/sign-in.css">
+  </head>
+  <body>
+  <header class="header">
+      <a href="home.html">
+          <img src="../images/amazon-logo.webp" alt="Amazon" class="logo">
+      </a>
+  </header>
+
+  <div class="container">
+      <div class="form-container">
+          <h1 class="page-title">Sign in</h1>
+          <form>
+              <div class="mb-3">
+                  <label for="email" class="form-label">Email or mobile phone number</label>
+                  <input type="text" class="form-control" id="email">
+              </div>
+
+              <button type="submit" class="btn continue-btn">Continue</button>
+
+              <div class="terms-text">
+                  By continuing, you agree to Amazon's <a href="#" class="link-text">Conditions of Use</a> and <a href="#"
+                                                                                                                  class="link-text">Privacy
+                  Notice</a>.
+              </div>
+
+              <div class="need-help">
+                  <div class="need-help-header">
+                      <span>▼</span> Need help?
+                  </div>
+                  <div class="help-dropdown">
+                      <div class="help-item">
+                          <a href="#" class="link-text">Forgot your password?</a>
+                      </div>
+                      <div class="help-item">
+                          <a href="#" class="link-text">Other issues with Sign-in</a>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="divider"></div>
+
+              <div class="mb-3">
+                  <div><strong>Buying for work?</strong></div>
+                  <a href="#" class="link-text">Shop on Amazon Business</a>
+              </div>
+          </form>
+      </div>
+
+      <div class="new-to-amazon">
+          <span class="new-text">New to Amazon?</span>
+      </div>
+      <a href="register.html">
+          <div class="d-grid gap-2 col-6 mx-auto mt-2">
+              <button class="create-account-btn" type="button">Create your Amazon account</button>
+          </div>
+      </a>
+  </div>
+  <footer class="footer">
+      <div class="footer-links">
+          <a href="#">Conditions of Use</a>
+          <a href="#">Privacy Notice</a>
+          <a href="#">Help</a>
+      </div>
+      <div class="copyright">
+          © 1996-2025, Amazon.com, Inc. or its affiliates
+      </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../static/js/sign-in.js"></script>
+
+  </body>
+</html>

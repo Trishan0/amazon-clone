@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazon</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link
+          rel="shortcut icon"
+          href="../images/sh-logo.webp"
+          type="image/x-icon"
+  />	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="../static/css/navbar.css">
+</head>
+<body>
+<!-- Top navigation bar -->
+<nav class="navbar navbar-expand">
+  <div class="container-fluid">
+    <!-- Amazon Logo -->
+    <a class="navbar-brand" href="home.html">
+      <img src="https://mlsvc01-prod.s3.amazonaws.com/fd4e81f3101/a77159a6-cbf4-46a1-a731-522b77da3e42.png?ver=1649349594000"
+           alt="Amazon">
+    </a>
+
+    <!-- Deliver to location -->
+    <div class="d-flex align-items-center location-icon">
+        <span class="me-1">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt"
+               viewBox="0 0 16 16">
+            <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+          </svg>
+        </span>
+      <div class="d-flex flex-column">
+        <small>Deliver to</small>
+        <span class="fw-bold">Sri Lanka</span>
+      </div>
+    </div>
+
+    <!-- Search Bar -->
+    <div class="search-container">
+      <select class="search-dropdown">
+        <option>All</option>
+        <option value="search-alias=arts-crafts-intl-ship">Arts &amp; Crafts</option>
+        <option value="search-alias=automotive-intl-ship">Automotive</option>
+        <option value="search-alias=baby-products-intl-ship">Baby</option>
+        <option value="search-alias=beauty-intl-ship">Beauty &amp; Personal Care</option>
+        <option value="search-alias=stripbooks-intl-ship">Books</option>
+        <option value="search-alias=fashion-boys-intl-ship">Boys' Fashion</option>
+        <option value="search-alias=computers-intl-ship">Computers</option>
+        <option value="search-alias=deals-intl-ship">Deals</option>
+        <option value="search-alias=digital-music">Digital Music</option>
+        <option value="search-alias=electronics-intl-ship">Electronics</option>
+        <option value="search-alias=fashion-girls-intl-ship">Girls' Fashion</option>
+        <option value="search-alias=hpc-intl-ship">Health &amp; Household</option>
+        <option value="search-alias=kitchen-intl-ship">Home &amp; Kitchen</option>
+        <option value="search-alias=industrial-intl-ship">Industrial &amp; Scientific</option>
+        <option value="search-alias=digital-text">Kindle Store</option>
+        <option value="search-alias=luggage-intl-ship">Luggage</option>
+        <option value="search-alias=fashion-mens-intl-ship">Men's Fashion</option>
+        <option value="search-alias=movies-tv-intl-ship">Movies &amp; TV</option>
+        <option value="search-alias=music-intl-ship">Music, CDs &amp; Vinyl</option>
+        <option value="search-alias=pets-intl-ship">Pet Supplies</option>
+        <option value="search-alias=instant-video">Prime Video</option>
+        <option value="search-alias=software-intl-ship">Software</option>
+        <option value="search-alias=sporting-intl-ship">Sports &amp; Outdoors</option>
+        <option value="search-alias=tools-intl-ship">Tools &amp; Home Improvement</option>
+        <option value="search-alias=toys-and-games-intl-ship">Toys &amp; Games</option>
+        <option value="search-alias=videogames-intl-ship">Video Games</option>
+        <option value="search-alias=fashion-womens-intl-ship">Women's Fashion</option>
+
+      </select>
+      <input type="text" class="search-input form-control" placeholder="Search Amazon" style="border-radius: 0;">
+      <button class="search-button px-3">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+             viewBox="0 0 16 16">
+          <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+        </svg>
+      </button>
+    </div>
+    <!-- Right side navigation -->
+    <div class="d-flex user-nav">
+      <!-- Language selector -->
+      <div class="user-nav-item">
+        <img src="https://t-cf.bstatic.com/design-assets/assets/v3.142.0/images-flags/Us@3x.png" alt="EN"
+             width="20">
+        <span>EN ▼</span>
+      </div>
+
+      <!-- Account & Lists -->
+      <div class="user-nav-item">
+        <div class="d-flex flex-column">
+          <small>Hello, sign in</small>
+          <span class="fw-bold">Account & Lists ▼</span>
+        </div>
+      </div>
+
+      <!-- Returns & Orders -->
+      <div class="user-nav-item">
+        <div class="d-flex flex-column">
+          <small>Returns</small>
+          <span class="fw-bold">& Orders</span>
+        </div>
+      </div>
+
+      <!-- Cart -->
+      <div class="user-nav-item">
+        <div class="cart-icon">
+          <a href="billing.html">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                 class="bi bi-cart" viewBox="0 0 16 16">
+              <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+            </svg>
+            <span class="cart-count">3</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- Secondary navigation -->
+<nav class="sub-nav">
+  <ul class="nav">
+    <li class="nav-item">
+      <a class="nav-link d-flex align-items-center" href="#">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+             class="bi bi-list me-1" viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+        </svg>
+        All
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Today's Deals</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Registry</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Customer Service</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Gift Cards</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Sell</a>
+    </li>
+  </ul>
+</nav>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
